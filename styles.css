@@ -28,7 +28,7 @@ p{
 	margin: 0;
 	padding: 0;
 	width: auto;
-	background-color: yellow;
+	background-color: blue;
 }
 .skill{
 	font-size: 250%;
@@ -48,8 +48,8 @@ li a:hover{
 	color: white;
 }
 .active{
-	background-color: green;
-	color: white;
+	background-color: red;
+	color: yellow;
 }
 .footer1{
 	text-align: center;
