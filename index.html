@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <title></title>
-    </head>
-    <body>
-	<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutme.html">About Me</a></li>
-			<li><a class="active" href="myskills.html">My Skills</a></li>
-			<li><a href="hobbies.html">Hobbies</a></li>
-	</ul>
-	
-        <ul class="skill">
-            <li>Productive</li>
-            <li>Coopereative</li>
-            <li>Logical Thinking</li>
-        </ul>
-    </body>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+
+</head>
+<body background="black.jpg"><br>
+<body style="background-color:blue; color:gray; font-size:32px;">
+  <p style="color:yellow;"><b>"•FIBONACCI SEQUENCE•"</b></p>
+  <script type="text/javascript">
+  var numb1=0;
+  var numb2=1;
+  var numb3;
+  
+var num=prompt("Enter a Number: ",0);
+  document.write(numb1+"<br/>");
+  document.write(numb2+"<br/>");
+  
+  for(var i=2; i<=num; i++)
+    {
+      numb3=numb1+numb2;
+      numb1=numb2;
+      numb2=numb3;
+      
+     document.write(numb3+"<br/>");
+    }
+  </script>
+</body>
 </html>
